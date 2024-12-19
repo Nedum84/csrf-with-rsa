@@ -21,7 +21,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src/", "package.json", "package-lock.json", "esbuild.config.cjs"],
+  "include": ["src/", "package.json", "yarn.lock", "esbuild.config.cjs"],
 
   "exclude": [
     "node_modules",
