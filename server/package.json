@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node dist/src/index.js",
     "clean": "rm -rf ./dist",
-    "build": "yarn clean && tsc",
+    "build": "tsc",
     "dev": "ts-node-dev src/index.ts"
   },
   "keywords": [],
